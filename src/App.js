@@ -23,7 +23,7 @@ function App() {
           <h1 className='text-center fw-bold py-5'>Login Page</h1>
           <br />
           <LoginSocialFacebook
-            appId="2190987827942360"
+            appId="1943423426070905"
             onResolve={({ provider, data }) => {
               setProvider(provider)
               setProfile(data)
